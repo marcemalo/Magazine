@@ -1,0 +1,256 @@
+/* General container styles */
+.je {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Card styles */
+.hopi {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hopi:hover {
+    transform: translateY(-5px);
+}
+
+/* Image styles */
+.dhjs {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Card content styles */
+.card-content {
+    padding: 15px;
+}
+
+/* Title styles */
+.hf {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Description styles */
+.dhj {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Price styles */
+.djfm {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px 0;
+}
+
+/* Button styles */
+.que {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.que:hover {
+    background-color: #2980b9;
+}
+.hopiop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Container for cart page */
+.hopiokjp {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading for cart */
+.hopiokjp h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Container for cart products */
+.hopdsop {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Individual product card */
+.rtrt {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+.ehe {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+/* Product information section */
+.product-info {
+    flex: 1;
+    margin-right: 15px;
+}
+
+/* Title styling */
+.jqeu5678 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+/* Description styling */
+.jqaewqu {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Price styling */
+.jqdau {
+    font-size: 1em;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Quantity controls styling */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Button styling */
+.quantity-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.quantity-button:hover {
+    background-color: #2980b9;
+}
+
+/* Quantity text styling */
+.quantity {
+    font-size: 1em;
+    margin: 0 10px;
+}
+
+/* Totals section styling */
+.totals {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Totals text styling */
+.subtotal, .vat, .total {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.subtotal {
+    color: #333;
+}
+
+.vat {
+    color: #666;
+}
+
+.total {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Navbar container */
+.nav {
+    background-color: #3498db;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar wrapper to center content */
+.navwwraper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar list styling */
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar list item styling */
+.ul li {
+    margin: 0 15px;
+}
+
+/* Navbar link styling */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f1c40f; /* Yellow color for hover effect */
+}
